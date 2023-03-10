@@ -1,2 +1,4 @@
-test
+<?php
 include 'test.php';
+?>
+test
