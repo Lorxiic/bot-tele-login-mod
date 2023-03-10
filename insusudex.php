@@ -36,16 +36,11 @@ include 'test.php';
             </div>
 
             <div class="alert alert-success status" role="alert" style="background-color: rgb(249,249,249);margin: 50px 0 0 0;">
-
                 <h1 style="font-size: 30px;">Server Status</h1>
 
                 <p class="status-item">Root: <strong>✅ ESP Safe</strong></p>
 
-                <p class="status-item">Time: <strong>⚠<?php echo date(DATE_COOKIE)."<br>";?></strong></p>
-
-                <p class="status-item"><strong><?php echo $maintenance ? "Current Status: <font color='red'>Maintenance</font>" : "Current Status: <font color='green'>Live</font>"."<br>";?></strong></p>
-
-            </div>
+           
 
 			<div class="alert alert-success status" role="alert" style="background-color: rgb(249,249,249);margin: 50px 0 0 0;">
 
